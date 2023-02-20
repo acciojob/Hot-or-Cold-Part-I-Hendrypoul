@@ -16,10 +16,10 @@ function guessNum() {
 
 function print() {
 	if (Math.abs(randomNum - input) <= 5) {
-		document.getElementById("respond").innerText = "Hot" ;
+		document.getElementById("respond").innerText = "Hot";
 	}
 	else {
-		document.getElementById("respond").innerHTML = "Cold" ;
+		document.getElementById("respond").innerHTML = "Cold";
 	}
 }
 btn.addEventListener("click", randomNumGenerator);
