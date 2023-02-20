@@ -19,7 +19,7 @@ function print() {
 		document.getElementById("respond").innerText = "Hot" ;
 	}
 	else {
-		document.getElementById("respond").innerText = "Cold" ;
+		document.getElementById("respond").innerHTML = "Cold" ;
 	}
 }
 btn.addEventListener("click", randomNumGenerator);
